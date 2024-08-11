@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+.miama{font-family: 'Miama', sans-serif;
+font-size: 5rem;
+font-weight: 400;}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;}
+  body{
+    background-color: black;
+    width: 80%;
+    margin: 5rem auto;
+    border-radius: 1rem;
+    
+  }
+*{margin: 0%;}
+
+
+.title-description{
+    color:rgba(255, 255, 255, 0.5) ;
+}
+.org-color{
+    color: rgb(230, 83, 60);
+}
+
+.white-color{
+    color: rgb(255, 255, 255);
+}
+
+
+/* navbar work */
+.nav-option{
+    width: 456px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 47px;
+    line-height: normal;
+    text-align: center;
+    align-items: center;
+    
+}
+.fitness{
+    font-size: 2.4rem;
+    font-weight: 800;
+    
+}
+.home{
+     width: 92px;
+     height: 26px;
+     padding:  8px 8px ;
+     padding-top: 12px;
+     border-radius: 46px;
+     background-color:rgb(230, 83, 60) ;
+   
+     
+     
+     
+}
+.nav-content{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+        width: 100%;
+        margin: 5rem auto;
+        border-radius: 1rem;
+        
+    
+        
+    
+}
+}
+nav{ 
+   
+    
+}
+
+header{
+   
+    width: 1440px;
+    height: 715px;
+    
+}
+
+/* banner style hare */
+.banner{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-title{
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+
+.banner-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    border-radius: 42px;
+    font-size: 1,125rem ;
+    font-weight: 600;
+    line-height: 1.375rem;
+
+}
+
+.beg-color-org{
+    background-color:rgb(230, 83, 60) ;
+    }
+    
+.bag-color-nun{
+    background-color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+}
+.banner-btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1rem;
+
+}
+
+.dot{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: rgb(230, 83, 60); 
+    border-radius: 50%;
+
+}
+
+.box-a{
+    padding: 10px 21px 20px 21px ;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-left: 70%;
+    margin-bottom: 25%;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+   
+}
+.box-a-title {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.discription {
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.dot{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 14px;
+    margin-right: 10px;
+}
+.box-b{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 21px 20px 21px ;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-left: 50%;
+    margin-bottom: 10%;
+    width: 200px;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+}
+.box-b-title{
+    font-size: 24px;
+    font-weight: 900;
+}
+.box-text{
+    margin-top: 10px;
+}
