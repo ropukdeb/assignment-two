@@ -23,6 +23,7 @@ font-weight: 400;}
 
 .title-description{
     color:rgba(255, 255, 255, 0.5) ;
+    
 }
 .org-color{
     color: rgb(230, 83, 60);
@@ -132,6 +133,7 @@ header{
 
 }
 
+/* box card option */
 .dot{
     height: 2.5rem;
     width: 2.5rem;
@@ -201,4 +203,61 @@ header{
 }
 .box-text{
     margin-top: 10px;
+}
+
+/* "Change Your Habits" option start hare */
+.Change-Your-Habits h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.Change-Your-Habits p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.item{
+
+    position: static;
+    width: 231px;
+    height: 274px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 40px;
+}
+.item img {
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.work-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    margin-top: 4rem;
+    
+}
+.item p {
+    text-align: center;
 }
