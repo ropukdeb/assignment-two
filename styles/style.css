@@ -32,6 +32,9 @@ font-weight: 400;}
 .white-color{
     color: rgb(255, 255, 255);
 }
+.bg-color-black-lite{
+    background: rgb(34, 34, 34);
+}
 
 
 /* navbar work */
@@ -67,25 +70,19 @@ font-weight: 400;}
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-        width: 100%;
-        margin: 5rem auto;
-        border-radius: 1rem;
-        
+    width: 100%;
+    margin: 5rem auto;
+    border-radius: 1rem;
     
         
-    
-}
-}
-nav{ 
    
-    
 }
 
 header{
    
     width: 1440px;
     height: 715px;
+    
     
 }
 
@@ -256,8 +253,61 @@ header{
     align-items: center;
     padding: 0px;
     margin-top: 4rem;
-    
 }
+
 .item p {
     text-align: center;
 }
+
+
+/* "Run an Extra Mile Easily" start hare! */
+
+   
+    
+
+
+.b-title{
+    font-size: 48px;
+    font-weight: 900;
+   
+
+
+}
+.text-b{
+    padding-top: 14px;
+    padding-left: 25px;
+    position: static;
+    width: 90rem;
+    height: 325px;
+    display: flex;
+    border-radius: 1.1rem;
+    margin-top: 3rem;
+    
+
+
+}
+ .text-b img {
+    position: absolute;
+    width: 366px;
+    height: 312px;
+    border-radius: 1.1rem;
+    margin-left: 32%;
+ }
+
+ /* BMI Calculator start hare !!! */
+ .c-section h1{ 
+    
+    font-size: 48px;
+    font-weight: 900;
+ }
+ .calculator-title{
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14;
+    text-align: center;
+    margin-top: 88px;
+    margin-bottom: 88px;
+ }
