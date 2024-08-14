@@ -364,10 +364,7 @@ table{
 
 
 
-  @media only screen and (max-width: 5760px){
-  .nav-content{
-    display: flex;
-    flex-direction: column;
+ 
     
   }
     
